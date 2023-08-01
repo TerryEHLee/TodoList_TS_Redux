@@ -6,8 +6,8 @@ function Main() {
   return (
     <div>
       <Input />
-      <TodoList />
-      <TodoList />
+      <TodoList isActive={true} />
+      <TodoList isActive={false} />
     </div>
   );
 }
